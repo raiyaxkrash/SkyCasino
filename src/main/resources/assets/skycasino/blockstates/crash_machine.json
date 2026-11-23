@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "skycasino:block/crash_machine"
+    },
+    "facing=east": {
+      "model": "skycasino:block/crash_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "skycasino:block/crash_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "skycasino:block/crash_machine",
+      "y": 270
+    }
+  }
+}

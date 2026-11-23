@@ -1,0 +1,99 @@
+{
+  "textures": {
+    "velvet": "skycasino:block/casino_velvet",
+    "gold": "skycasino:block/casino_gold_trim",
+    "particle": "skycasino:block/casino_velvet"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        1,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold"
+        },
+        "south": {
+          "texture": "#gold"
+        },
+        "east": {
+          "texture": "#gold"
+        },
+        "west": {
+          "texture": "#gold"
+        },
+        "up": {
+          "texture": "#gold"
+        },
+        "down": {
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        1,
+        7
+      ],
+      "to": [
+        9,
+        8,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold"
+        },
+        "south": {
+          "texture": "#gold"
+        },
+        "east": {
+          "texture": "#gold"
+        },
+        "west": {
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        8,
+        3
+      ],
+      "to": [
+        13,
+        11,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#velvet"
+        },
+        "south": {
+          "texture": "#velvet"
+        },
+        "east": {
+          "texture": "#velvet"
+        },
+        "west": {
+          "texture": "#velvet"
+        },
+        "up": {
+          "texture": "#velvet"
+        },
+        "down": {
+          "texture": "#gold"
+        }
+      }
+    }
+  ]
+}

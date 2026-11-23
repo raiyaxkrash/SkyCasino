@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "GPG",
+    " P "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:green_carpet"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "skycasino:blackjack_table"
+  }
+}

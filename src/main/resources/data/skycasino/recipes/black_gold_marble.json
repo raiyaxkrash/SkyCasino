@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BG"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "skycasino:black_gold_marble",
+    "count": 4
+  }
+}

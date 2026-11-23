@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "skycasino:block/casino_carpet_red"
+  }
+}

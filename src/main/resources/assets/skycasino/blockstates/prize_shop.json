@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "skycasino:block/prize_shop"
+    },
+    "facing=east": {
+      "model": "skycasino:block/prize_shop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "skycasino:block/prize_shop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "skycasino:block/prize_shop",
+      "y": 270
+    }
+  }
+}

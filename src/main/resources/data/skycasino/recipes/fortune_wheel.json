@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GYG",
+    "RDB",
+    " P "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "skycasino:fortune_wheel"
+  }
+}

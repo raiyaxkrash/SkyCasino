@@ -1,0 +1,106 @@
+{
+  "textures": {
+    "front": "skycasino:block/prize_shop_front",
+    "side": "skycasino:block/gold_marble",
+    "gold": "skycasino:block/casino_gold_trim",
+    "particle": "skycasino:block/prize_shop_front"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        5,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold"
+        },
+        "south": {
+          "texture": "#gold"
+        },
+        "east": {
+          "texture": "#gold"
+        },
+        "west": {
+          "texture": "#gold"
+        },
+        "up": {
+          "texture": "#gold"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        5,
+        2
+      ],
+      "to": [
+        14,
+        15,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#gold"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        15,
+        3
+      ],
+      "to": [
+        13,
+        16,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold"
+        },
+        "south": {
+          "texture": "#gold"
+        },
+        "east": {
+          "texture": "#gold"
+        },
+        "west": {
+          "texture": "#gold"
+        },
+        "up": {
+          "texture": "#gold"
+        }
+      }
+    }
+  ]
+}

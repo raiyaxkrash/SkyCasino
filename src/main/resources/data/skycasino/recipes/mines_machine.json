@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "DTD",
+    "GBG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "skycasino:mines_machine"
+  }
+}

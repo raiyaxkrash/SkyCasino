@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "skycasino:block/blackjack_table"
+    },
+    "facing=east": {
+      "model": "skycasino:block/blackjack_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "skycasino:block/blackjack_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "skycasino:block/blackjack_table",
+      "y": 270
+    }
+  }
+}

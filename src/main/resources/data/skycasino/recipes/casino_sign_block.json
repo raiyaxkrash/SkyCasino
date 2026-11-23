@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GNG",
+    "NEN",
+    "GNG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "skycasino:neon_gold"
+    },
+    "E": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "skycasino:casino_sign_block",
+    "count": 2
+  }
+}

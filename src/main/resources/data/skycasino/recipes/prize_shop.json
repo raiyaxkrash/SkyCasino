@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QDQ",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Q": {
+      "item": "minecraft:glass"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "skycasino:prize_shop"
+  }
+}

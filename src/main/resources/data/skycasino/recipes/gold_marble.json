@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQ",
+    "QG"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "skycasino:gold_marble",
+    "count": 4
+  }
+}

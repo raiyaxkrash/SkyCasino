@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " G ",
+    "GGG"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "skycasino:casino_stool",
+    "count": 2
+  }
+}
