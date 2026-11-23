@@ -58,16 +58,16 @@ def make_banner():
 
     # Left & Right feature textures (Slot Machine, Fortune Wheel, Crash, Mines)
     left_blocks = [
-        ("block/slot_machine_front.png", 68, 72, 112),
-        ("block/fortune_wheel_face.png", 196, 152, 96),
-        ("item/gold_chip.png", 86, 214, 72),
-        ("item/pocket_casino.png", 174, 266, 68),
+        ("block/slot_machine_front.png", 52, 64, 108),
+        ("block/fortune_wheel_face.png", 174, 146, 86),
+        ("item/gold_chip.png", 68, 212, 72),
+        ("item/pocket_casino.png", 156, 266, 68),
     ]
     right_blocks = [
-        ("block/crash_machine_front.png", W - 180, 72, 112),
-        ("block/mines_machine_front.png", W - 292, 152, 96),
-        ("item/loot_case_vip.png", W - 158, 214, 72),
-        ("item/vip_card.png", W - 242, 266, 68),
+        ("block/crash_machine_front.png", W - 160, 64, 108),
+        ("block/mines_machine_front.png", W - 260, 146, 86),
+        ("item/loot_case_vip.png", W - 140, 212, 72),
+        ("item/vip_card.png", W - 224, 266, 68),
     ]
     for rel, x, y, sz in left_blocks + right_blocks:
         t = load_tex(rel, sz)
@@ -77,20 +77,20 @@ def make_banner():
         d.rectangle([x - 2, y - 2, x + sz + 1, y + sz + 1], outline=(255, 209, 92, 140), width=2)
 
     # Center Title Typography
-    f_tag = get_font(20, bold=True)
+    f_tag = get_font(19, bold=True)
     f_title = get_font(78, bold=True)
-    f_sub = get_font(24, bold=False)
+    f_sub = get_font(20, bold=False)
     f_pills = get_font(17, bold=True)
 
-    tag = "★  MINECRAFT 1.20.1 FORGE  ·  ATM9: TO THE SKY  ★"
+    tag = "MINECRAFT 1.20.1 FORGE  ·  ATM9: TO THE SKY"
     tb = d.textbbox((0, 0), tag, font=f_tag)
     d.text(((W - (tb[2] - tb[0])) // 2, 66), tag, font=f_tag, fill=(255, 209, 92, 235))
 
     title = "SKY CASINO"
     ttb = d.textbbox((0, 0), title, font=f_title)
     tx = (W - (ttb[2] - ttb[0])) // 2
-    d.text((tx + 4, 108), title, font=f_title, fill=(0, 0, 0, 180))
-    d.text((tx, 104), title, font=f_title, fill=(255, 224, 108, 255))
+    d.text((tx + 4, 106), title, font=f_title, fill=(0, 0, 0, 180))
+    d.text((tx, 102), title, font=f_title, fill=(255, 224, 108, 255))
 
     sub = "6 игр · Портативный планшет · VIP-карта · 50+ модовых призов · Лудик"
     sb = d.textbbox((0, 0), sub, font=f_sub)
@@ -101,15 +101,15 @@ def make_banner():
         "item/white_chip.png", "item/red_chip.png", "item/blue_chip.png",
         "item/purple_chip.png", "item/gold_chip.png", "item/emerald_chip.png", "item/netherite_chip.png"
     ]
-    chip_sz = 52
+    chip_sz = 56
     gap = 18
     total_w = len(chips) * chip_sz + (len(chips) - 1) * gap
     start_x = (W - total_w) // 2
     for i, c in enumerate(chips):
         cx = start_x + i * (chip_sz + gap)
-        img.alpha_composite(load_tex(c, chip_sz), (cx, 274))
+        img.alpha_composite(load_tex(c, chip_sz), (cx, 266))
 
-    badge = "v1.5.0  ·  ALL-IN  ·  ЛОМБАРД  ·  КОЛЛЕКТОРЫ  ·  CS:GO КЕЙСЫ"
+    badge = "v1.5.1  ·  32x HD ПРЕДМЕТЫ  ·  ALL-IN  ·  ЛОМБАРД  ·  КОЛЛЕКТОРЫ"
     bb = d.textbbox((0, 0), badge, font=f_pills)
     d.text(((W - (bb[2] - bb[0])) // 2, 344), badge, font=f_pills, fill=(130, 240, 185, 235))
 
